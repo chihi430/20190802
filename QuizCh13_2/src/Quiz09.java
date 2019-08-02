@@ -10,17 +10,17 @@ public class Quiz09 {
 
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println("Á¤¼ö¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä");
+		System.out.println("ì •ìˆ˜ë¥¼ ìž…ë ¥í•´ì£¼ì„¸ìš”");
 		for (int i = 0; i < 5; i++) {
 			arr[i] = sc.nextInt();
 		}
-		System.out.print("ÀÔ·ÂÇÑ°ª : ");
+		System.out.print("ìž…ë ¥í•œê°’ : ");
 		for (int j = 0; j < 5; j++) {
 			System.out.print(arr[j] + ",");
 		}
 		System.out.println();
 
-		//³»¸²Â÷¼ø
+		//ë‚´ë¦¼ì°¨ìˆœ
 		for (int i = 0; i < arr.length; i++) {
 			for (int j = i + 1; j < arr.length; j++) {
 				if (arr[i] < arr[j]) {
@@ -31,14 +31,14 @@ public class Quiz09 {
 			}
 		}
 		
-		System.out.print("³»¸²Â÷¼ø : ");
+		System.out.print("ë‚´ë¦¼ì°¨ìˆœ : ");
 		for (int i = 0; i < 5; i++) {
 			System.out.print(arr[i] + ",");
 		}
-		//ÁÙ¹Ù²Þ
+		//ì¤„ë°”ê¿ˆ
 		System.out.println();
 
-		//¿À¸§Â÷¼ø
+		//ì˜¤ë¦„ì°¨ìˆœ
 		for (int i = 0; i < arr.length; i++) {
 			for (int j = i + 1; j < arr.length; j++) {
 				if (arr[i] > arr[j]) {
@@ -49,10 +49,25 @@ public class Quiz09 {
 			}
 		}
 		
-		System.out.print("¿À¸§Â÷¼ø : ");
+		System.out.print("ì˜¤ë¦„ì°¨ìˆœ : ");
 		for (int i = 5; i < arr.length; i++) {
 			System.out.print(arr[i] + ",");
 		}
 		System.out.println();
+		
+		for(int i = 0; i<arr.length;i++) {
+			for(int j = 0  ; j <arr.length-1-i; j++) {
+				if(arr[j]>arr[j+1]) {
+					int sort = arr[i];
+					arr[i]=arr[j+1];
+					arr[i+1]=sort;
+					
+				}
+			}
+		}
+		System.out.print("ë²„ë¸” ì •ë ¬ : ");
+		for(int i =5;i<arr.length; i++) {
+			System.out.print(arr[i]+",");
+		}
 	}
 }

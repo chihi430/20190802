@@ -8,10 +8,10 @@ public class Quiz_02_02 {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("ì œê³±í•˜ê³ ì í•˜ëŠ” ì •ìˆ˜ë¥¼ ì…ë ¥í•´ ì£¼ì‹­ì‹œì˜¤: ");
+        System.out.print("Á¤¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ");
         int num1 = sc.nextInt();
 
-        System.out.println(num1 + "ì˜ ì œê³±ê°’ : " + (num1 * num1));
+        System.out.println(num1 + "ÀÔ·ÂÇÑ °ªÀÇ éÀº: " + (num1 * num1));
 
         sc.close();
     }

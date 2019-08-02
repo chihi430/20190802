@@ -8,13 +8,13 @@ public class Quiz_02_04 {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("ë‘ê°œì˜ ì •ìˆ˜ë¥¼ ì…ë ¥í•´ ì£¼ì‹­ì‹œì˜¤:");
+        System.out.print("µÎ°³ÀÇ Á¤¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä :");
         int num1 = sc.nextInt();
         int num2 = sc.nextInt();
 
         int big = (num1 >= num2) ? num1 : num2;
 
-        System.out.println("ì…ë ¥ë°›ì€ ë‘ ìˆ˜ " + num1 + " " + num2 + " ì¤‘ ë” í° ìˆ˜ëŠ” " + big + "ì…ë‹ˆë‹¤." );
+        System.out.println("µÎ°³ÀÇ Á¤¼öÁß¿¡ " + num1 + " " + num2 + " Å«¼ö´Â " + big + "ÀÔ´Ï´Ù." );
 
         sc.close();
     }

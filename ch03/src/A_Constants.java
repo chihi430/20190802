@@ -1,13 +1,13 @@
 public class A_Constants {
     public static void main(String[] args) {
         final  int MAX_SIZE = 100;
-        final char CONST_CHAR = 'Çä';
+        final char CONST_CHAR = 'í™•';
         final int CONST_ASSIGNED;
 
         CONST_ASSIGNED = 12;
 
-        System.out.println("ÃÖ´ë°ª: " + MAX_SIZE);
-        System.out.println("¹®ÀÚ : " + CONST_CHAR);
+        System.out.println("ï¿½Ö´ë°ª: " + MAX_SIZE);
+        System.out.println("ï¿½ï¿½ï¿½ï¿½ : " + CONST_CHAR);
         System.out.println("const_assigned : " + CONST_ASSIGNED);
     }
 }

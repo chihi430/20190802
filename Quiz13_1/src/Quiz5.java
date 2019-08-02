@@ -10,15 +10,15 @@ public class Quiz5 {
 		String[] str = new String[10];
 		str[num] = sc.nextLine();
 		
-		int nLen = str.length();
-		String[] strArr1 = new String[nLen];
-		
-		for(int i = 0; i<nLen;i++) {
-			strArr1[i] = str.subString(i,i+1);
-		}
-		
-		String[] strArr2 = str.split("");
-		char[] strArr3 = str.toCharArray;
+//		int nLen = str.length();
+//		String[] strArr1 = new String[nLen];
+//		
+//		for(int i = 0; i<nLen;i++) {
+//			strArr1[i] = str.subString(i,i+1);
+//		}
+//		
+//		String[] strArr2 = str.split("");
+//		char[] strArr3 = str.toCharArray;
 		
 		
 		System.out.println("단어를 입력하시오");

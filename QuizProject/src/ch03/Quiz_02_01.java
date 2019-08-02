@@ -8,7 +8,7 @@ public class Quiz_02_01 {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("ë‘ê°œì˜ ì •ìˆ˜ë¥¼ ì…ë ¥í•´ ì£¼ì‹­ì‹œì˜¤:");
+        System.out.print("2°³ÀÇ Á¤¼ö¸¦ ÀÔ·ÂÇØ ÁÖ¼¼¿ä:");
         int num1 = sc.nextInt();
         int num2 = sc.nextInt();
 
