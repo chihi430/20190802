@@ -20,7 +20,7 @@ public class MultiClient4 {
 			Socket socket = new Socket(ServerIp, 9999);
 			System.out.println("서버와 연결이 되었습니다.....");
 			
-			Thread receiver = new Reciver3(socket);
+			Thread receiver = new Reciver4(socket);
 			receiver.start();
 				
 			out = new PrintWriter(socket.getOutputStream(), true);
